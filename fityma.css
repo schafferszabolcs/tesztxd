@@ -1,0 +1,29 @@
+#keret {
+    max-width: 950;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #cccccc;
+    box-sizing: border-box;
+}
+
+#fejlec {
+    height: 50px;
+}
+
+#tartalom {
+    display: flex;
+    gap: 10px;
+}
+
+#jobb-menu {
+    width: 240;
+}
+
+#hirfolyam {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
